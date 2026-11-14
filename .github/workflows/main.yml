@@ -23,4 +23,3 @@ jobs:
           context: .
           push: true
           tags: ${{ vars.DOCKERHUB_USERNAME }}/node-app:latest
-
