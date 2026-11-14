@@ -21,3 +21,4 @@ jobs:
         run: |
           docker build -t ${{ vars.DOCKERHUB_USERNAME }}/node-app:latest .
           docker push ${{ vars.DOCKERHUB_USERNAME }}/node-app:latest
+
